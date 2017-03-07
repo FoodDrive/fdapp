@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "748518888873",
+    "firebase_url": "https://fooddrive-3628e.firebaseio.com",
+    "project_id": "fooddrive-3628e",
+    "storage_bucket": "fooddrive-3628e.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:748518888873:android:84748eb1aa120215",
+        "android_client_info": {
+          "package_name": "com.example.dell.fddesign"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "748518888873-eselt7lu87g1opdq2f3rlf90cci6b8tl.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.dell.fddesign",
+            "certificate_hash": "f632623aed069c09f77d67a3e87afdff5f7e450c"
+          }
+        },
+        {
+          "client_id": "748518888873-frs8l1q5s6f07vlq2tvqfugrb8g3siif.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCUs5ixUVKh04Tpxa5VDA-PJpeu212Oh3E"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "748518888873-frs8l1q5s6f07vlq2tvqfugrb8g3siif.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
