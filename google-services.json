@@ -8,17 +8,17 @@
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:748518888873:android:84748eb1aa120215",
+        "mobilesdk_app_id": "1:748518888873:android:34a2b01e19307cf2",
         "android_client_info": {
-          "package_name": "com.example.dell.fddesign"
+          "package_name": "com.project.vnr.fooddrive"
         }
       },
       "oauth_client": [
         {
-          "client_id": "748518888873-eselt7lu87g1opdq2f3rlf90cci6b8tl.apps.googleusercontent.com",
+          "client_id": "748518888873-ct2fojpdkfuo77ld4bc6gveqbuocjqte.apps.googleusercontent.com",
           "client_type": 1,
           "android_info": {
-            "package_name": "com.example.dell.fddesign",
+            "package_name": "com.project.vnr.fooddrive",
             "certificate_hash": "f632623aed069c09f77d67a3e87afdff5f7e450c"
           }
         },

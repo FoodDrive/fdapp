@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.project.vnr.fooddrive">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/fd_icon"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".LoginActivity" />
+        <activity android:name=".RegActivity" />
+        <activity
+            android:name=".HomeActivity"
+            android:label="@string/title_activity_home"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".OrgActivity" />
+        <activity android:name=".IndivActivity" />
+        <activity
+            android:name=".DonateActivity"
+            android:label="@string/title_activity_donate"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".RatingActivity" />
+        <activity android:name=".OrgEdit" />
+        <activity android:name=".IndivEdit" />
+        <activity
+            android:name=".OrgProfile"
+            android:label="@string/title_activity_org_profile"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".IndivProfile"
+            android:label="@string/title_activity_indiv_profile"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".FAQActivity"
+            android:label="@string/title_activity_faq"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".IndivDetails"
+            android:label="@string/title_activity_indiv_details"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".NgoDetails"
+            android:label="@string/title_activity_ngo_details"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".CorpOfficeDetails"
+            android:label="@string/title_activity_corp_office_details"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".FunHallDetails"
+            android:label="@string/title_activity_fun_hall_details"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".HotelDetails"
+            android:label="@string/title_activity_hotel_details"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".AboutUs"
+            android:label="@string/title_activity_about_us"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".CollectActivity"
+            android:label="@string/title_activity_collect"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".FoodDialog"></activity>
+    </application>
+
+</manifest>

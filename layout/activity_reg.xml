@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_reg"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.project.vnr.fooddrive.RegActivity">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:weightSum="5"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true">
+
+        <Button
+            android:text="Restaurant / Hotel"
+            android:background="#f44336"
+            android:textColor="@color/white"
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/btnRes"
+            android:textSize="24sp" />
+
+        <Button
+            android:text="Function Hall"
+            android:background="#ef5350"
+            android:textColor="@color/white"
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="24sp"
+            android:id="@+id/btnFunc" />
+
+        <Button
+            android:text="Corporate Office"
+            android:background="#e57373"
+            android:textColor="@color/white"
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="24sp"
+            android:id="@+id/btnCorp" />
+
+        <Button
+            android:text="NGO"
+            android:background="#ef9a9a"
+            android:textColor="@color/white"
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="24sp"
+            android:id="@+id/btnNgo" />
+
+        <Button
+            android:text="Individual"
+            android:background="#ffcdd2"
+            android:textColor="@color/white"
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/btnIndiv"
+            android:textSize="24sp" />
+
+    </LinearLayout>
+
+</RelativeLayout>
